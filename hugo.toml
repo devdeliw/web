@@ -1,0 +1,31 @@
+baseURL = 'https://dev-undergrad.dev/'
+languageCode = 'en-us'
+title = 'Undergraduate Notes'
+theme = 'HugoTeX'
+paginate = 3
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+
+[author]
+  name = "Deval Deliwala"
+  abstract = "I do astrophysics & math @ UC Berkeley. My primary interests lie in quantum computing."
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "paraiso-dark"
+
+[Params]
+  darkmode = true
+
+
+
+
