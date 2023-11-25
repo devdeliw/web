@@ -1,1 +1,1 @@
-## Repository for Undergraduate Notes [website](https://dev_undergrad.dev)
+## Repository for Undergraduate Notes [website](https://dev-undergrad.dev)
