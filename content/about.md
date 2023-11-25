@@ -12,7 +12,7 @@ Computing -- presently learning the Qiskit Python Library. I also perform
 research using JWST data analyzing the dynamics of stars and blackholes around
 the galactic center. 
 
-Other than that, I like nature, calisthenics, watching 3b1b videos, ...
+Other than that, I like nature, calisthenics, watching 3b1b videos...
 
 * https://youtube.com/devdeliw
 * https://github.com/devdeliw
