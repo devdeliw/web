@@ -1,17 +1,11 @@
 +++
 title = 'Calculus of Variations'
 date = 2023-12-03T14:17:36-08:00
-draft = false
+description = "Notes on Calculus of Variations -- §9 Boas"
 +++
 
-# Calculus of Variations 
-===
-
-The following provides a quick reference for understanding Calculus of
-Variations 
-
 ### Introduction
-===
+---
 
 The goal of calculus of variations is akin to finding maximum and minimum
 values of $f(x)$ in ordinary calculus. 
