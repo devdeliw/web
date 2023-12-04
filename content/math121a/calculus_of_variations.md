@@ -1,4 +1,4 @@
-+++
+++
 title = 'Calculus of Variations'
 date = 2023-12-03T14:17:36-08:00
 description = "Notes on Calculus of Variations -- §9 Boas"
@@ -123,3 +123,7 @@ $$ \theta + \alpha = 3 \cos^{-1} \frac{K}{r} \qquad (\alpha = \text{const. of in
 $$ \cos\left(\frac{\theta + \alpha}{3}\right) = \frac{K}{r} \quad \text{or}
 \quad r\cos\left(\frac{\theta + \alpha}{3}\right) = K. $$ 
 
+Einstein's **Theory of General Relativity** heavily utilizes geodesics.
+Fermat's principle that a ray of light takes the path traversed in the least
+time is akin to calculuating the geodesic. In the above example we calculated
+the geodesics for a spacetime in the shape of a cone. 
