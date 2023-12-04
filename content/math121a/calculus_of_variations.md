@@ -1,7 +1,7 @@
 +++
 title = 'Calculus of Variations'
 date = 2023-12-03T14:17:36-08:00
-description = "Notes on Calculus of Variations -- §9 Boas"
+description = "Notes on Calculus of Variations -- §9. Boas"
 +++
 
 Notes on Calculus of Variations -- §9 Boas
@@ -127,3 +127,5 @@ Einstein's **Theory of General Relativity** heavily utilizes geodesics.
 Fermat's principle that a ray of light takes the path traversed in the least
 time is akin to calculuating the geodesic. In the above example we calculated
 the geodesics for a spacetime in the shape of a cone. 
+
+[Calculus of Variations Problems](https://dev-undergrad.dev/math121a/calculus_of_variations_problems/)
