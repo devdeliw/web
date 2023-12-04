@@ -1,4 +1,4 @@
-++
++++
 title = 'Calculus of Variations'
 date = 2023-12-03T14:17:36-08:00
 description = "Notes on Calculus of Variations -- §9 Boas"
