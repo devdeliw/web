@@ -83,11 +83,83 @@ $$ f(z) = \frac{ 12 }{ z(2-z)(1+z) }  $$
 
 There exist 3 singular points of this function: \\( z = 0 \\), \\( z = 2 \\),
 \\( z = -1 \\). This means that there exist 2 circles who together make
-3 different laurent series, each in the region 
+3 different laurent series, each in the region
 
-$$ R_1 = \\{ |z| < 1 \\} $$
-$$ R_2 = \\{ 1 < |z| < 2 \\} $$ 
-$$ R_3 = \\{ |z| > 2 \\} $$ 
+\begin{align*}
+&R_1 = \\{ 0 < |z| < 1 \\} \\\
+&R_2 = \\{ 1 < |z| < 2 \\} \\\
+&R_3 = \\{ |z| > 2 \\} 
+\end{align*}
+
+Let us calculate the Laurent Series for \\( R_1  = \\{ 0 < |z| < 1 \\} \\)
+
+We first have to alter \\( f(z) \\) into a form that we can do work with and
+use known taylor series to our advantage. Implementing partial fractions, 
+
+\begin{align*}
+    f(z) &= \frac{ 12 }{ z(2-z)(1+z) } = \frac{ \alpha }{ z } \left(\frac{ 1 }{ 2-z } + \frac{ 1 }{ 1+z } \right) 
+\end{align*}
+
+Solving for \\( \alpha \\) yields \\( \alpha = 4 \\), so 
+
+$$ \frac{ 12 }{ z(2-z)(1+z) } = \frac{ 4 }{ z } \left( \frac{ 1 }{ 1+z } + \frac{ 1 }{ 2-z } \right)$$
+
+In \\( R_1 \\), \\( |z| < 2 \\) and \\( |z| < 1 \\). Thus we need to find two series
+that converge where \\( |z| < 2 \\) and where \\( |z| < 1 \\). Adding them
+together yields the Laurent Series for \\( f(z) \\) in \\( R_1 \\). 
+
+For any series that we want to converge where \\( |z| < \alpha \\) for the
+singularity \\( \alpha \\), we want to put the term that has a singularity at
+\\( \alpha \\) in the following form to allow us to use basic taylor series: 
+
+$$ \boxed{\frac{ 1 }{ z-\alpha } = -\frac{ 1 }{ \alpha } \frac{ 1 }{ 1 - \frac{ z }{ \alpha }  } = -\frac{ 1 }{ \alpha } \sum_n \left(\frac{ z }{ \alpha } \right)^n \qquad |z| < \alpha}  $$
+
+Therefore, since \\( f(z) = 4/z ( 1/(1+z) + 1/(2-z) ) \\), solving for \\( |z| < 2 \\): 
+
+$$ \frac{ 1 }{ 2-z } = \frac{ 1 }{ -z - (-2) } = -\frac{ 1 }{ -2 } \frac{ 1 }{ 1 - \frac{ -z }{ -2 }  } = \frac{ 1 }{ 2 } \frac{ 1 }{ 1 - \frac{ z }{ 2 }  }  = \frac{ 1 }{ 2 } \sum_n \left(\frac{ z }{ 2 } \right)^n $$ 
+
+Doing the same for \\( |z| < 1 \\), 
+
+$$ \frac{ 1 }{ 1 + z } = \frac{ 1 }{ z - (-1) } = \sum_n (-z)^n $$
+
+And therefore, 
+
+$$ f(z) = \frac{ 4 }{ z } \left( \frac{ 1 }{ 1+z } + \frac{ 1 }{ 2-z } \right) = \frac{ 4 }{ z } \left( \sum_n (-z)^n + \frac{ 1 }{ 2 } \sum_n \left(\frac{ z }{ 2 } \right)^n \right)  $$
+
+This results in the following series: 
+
+$$ f(z) = -3 + 9\frac{ z }{ 2 } - 15 \frac{ z^2 }{ 4 } + 33\frac{ z^3  }{ 8 } + ... + \frac{ 6 }{ z }  .$$ 
+This is the laurent series for \\( f(z) \\) which is valid in the region \\( 0 < |z| < 1 \\). 
+
+If we want to obtain Laurent Series in regions between \\( \alpha < |z| < \beta \\), we do a similar procedure. However for \\( |z| > \alpha \\) we have to put \\( f(z) \\) into a different form for it to converge and to allow us to use a taylor series in a similar way.
+
+$$ \boxed{ \frac{ 1 }{ z - \alpha }  = \frac{ 1 }{ z } \frac{ 1 }{ 1 - \frac{ \alpha }{ z }  } = \frac{ 1 }{ z } \sum_n \left(\frac{ \alpha }{ z } \right)^n } $$ 
+
+We then do the same, determine which separate series we need to calculate and add them together. 
+
+For example if we are tasked to find the laurent series of \\( f(z) \\) that is valid in the range \\( 1 < |z| < 2 \\), we have to find the series from the term with the pole of 1 using the formula for \\( |z| > 1 \\). Then find the series from the term with the pole of 2 using the formula for \\( |z| < 2 \\), then substitute their series in to \\( f(z) \\) to get the final laurent series.
+
+#### Laurent Series Procedure
+
+1. Partial Fractions
+2. Determine range of Laurent Series
+3. Implement Taylor Series Formulae for each range 
+4. Add resulting Series into the original \\( f(z) \\) 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
 
 
  
