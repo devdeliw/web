@@ -49,7 +49,7 @@ $$ \oint_C \frac{ z }{ 1+z^2 } dz = 2\pi i \sum \text{Res} f(z) = 2\pi i \left( 
 ## Laurent Series 
 ---
 
-Let us solve the Laurent Series for \\( f(z) = \frac{ 12 }{ z(2-z)(1+z) }  \\) for the other two regions: 
+Let us solve the Laurent Series for \\( f(z) = \frac{ 12 }{ z(2-z)(1+z) }  \\) from the notes for the other two regions: 
 
 \begin{align*}
     &R_2 = {1 < |z| < 2} \\\
