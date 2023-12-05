@@ -16,7 +16,7 @@ Other than that, I like nature, calisthenics, watching 3b1b videos...
 
 * https://youtube.com/devdeliw
 * https://github.com/devdeliw
-* https://github.com/devaldeliwala
+* https://instagram.com/devaldeliwala
 * https://www.linkedin.com/in/deval-deliwala-554749219/
 
 
