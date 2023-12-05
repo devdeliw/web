@@ -114,7 +114,7 @@ singularity \\( \alpha \\), we want to put the term that has a singularity at
 
 $$ \boxed{\frac{ 1 }{ z-\alpha } = -\frac{ 1 }{ \alpha } \frac{ 1 }{ 1 - \frac{ z }{ \alpha }  } = -\frac{ 1 }{ \alpha } \sum_n \left(\frac{ z }{ \alpha } \right)^n \qquad |z| < \alpha}  $$
 
-Therefore, since \\( f(z) = 4/z ( 1/(1+z) + 1/(2-z) ) \\), solving for \\( |z| < 2 \\): 
+Therefore, since \\( f(z) = \frac{ 4 }{ z }  \left( \frac{ 1 }{ 1+z } + \frac{ 1 }{ 2-z } \right) \\), solving for \\( |z| < 2 \\): 
 
 $$ \frac{ 1 }{ 2-z } = \frac{ 1 }{ -z - (-2) } = -\frac{ 1 }{ -2 } \frac{ 1 }{ 1 - \frac{ -z }{ -2 }  } = \frac{ 1 }{ 2 } \frac{ 1 }{ 1 - \frac{ z }{ 2 }  }  = \frac{ 1 }{ 2 } \sum_n \left(\frac{ z }{ 2 } \right)^n $$ 
 
