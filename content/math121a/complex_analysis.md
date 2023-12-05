@@ -147,8 +147,8 @@ For example if we are tasked to find the laurent series of \\( f(z) \\) that is 
 4. Add resulting Series into the original \\( f(z) \\) 
 
 
-
-
+[Complex Analysis Problems -- Contour Integration & Laurent
+Series](https://dev-undergrad.dev/math121a/complex_analysis_problems/)
 
  
 
