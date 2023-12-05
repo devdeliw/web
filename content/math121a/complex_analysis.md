@@ -133,7 +133,7 @@ This is the laurent series for \\( f(z) \\) which is valid in the region \\( 0 <
 
 If we want to obtain Laurent Series in regions between \\( \alpha < |z| < \beta \\), we do a similar procedure. However for \\( |z| > \alpha \\) we have to put \\( f(z) \\) into a different form for it to converge and to allow us to use a taylor series in a similar way.
 
-$$ \boxed{ \frac{ 1 }{ z - \alpha }  = \frac{ 1 }{ z } \frac{ 1 }{ 1 - \frac{ \alpha }{ z }  } = \frac{ 1 }{ z } \sum_n \left(\frac{ \alpha }{ z } \right)^n } $$ 
+$$ \boxed{ \frac{ 1 }{ z - \alpha }  = \frac{ 1 }{ z } \frac{ 1 }{ 1 - \frac{ \alpha }{ z }  } = \frac{ 1 }{ z } \sum_n \left(\frac{ \alpha }{ z } \right)^n \qquad |z| > \alpha } $$ 
 
 We then do the same, determine which separate series we need to calculate and add them together. 
 
