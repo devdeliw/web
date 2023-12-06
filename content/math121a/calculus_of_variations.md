@@ -88,12 +88,59 @@ In polar coordinates the Euler-Lagrange Equation takes the following form:
 $$ \boxed{ \frac{d}{dr} \left(\frac{\partial F}{\partial \theta'} \right) - \frac{\partial F}{\partial \theta} = 0 \quad \text{where } I = \int F(r, \\,
 \theta, \\, \theta') } $$
 
-#### Example 2: ***Cylindrical Geodesics*** 
+### Change of Variables
+
+In many problems the integrand \\( F \\) in \\( I \\) does not contain \\( y \\). Then \\( \frac{\partial F}{\partial y} = 0 \\) and the Euler-Lagrange Equation becomes
+
+$$ \frac{d }{d x} \frac{\partial F}{\partial y'} = 0 \quad \Longrightarrow \quad \frac{\partial F}{\partial y'} = \text{const.}  $$
+
+The equation \\( \frac{\partial F}{\partial y'} = \\) const. Is known as the
+ first integral  of the Euler-Lagrange Equation.
+
+Let us solve the following problem: Given two points \\( P_1 \\) and \\( P_2 \\), we are going to draw a curve joining \\( P_1 \\) and \\( P_2 \\) and revolve it around the x axis to form a surface of revolution. We want the equation of the curve so that the surface area will be a minimum. That is, we want to minimize \\( I = \int 2\pi y \\, ds \\). 
+
+We usually write \\( ds \\) 
+
+$$ ds = \sqrt{ 1 + y'^2 } \\, dx. $$ 
+
+However, since \\( F \\) in \\( I \\) does not contain \\( x \\), let us
+instead write \\( ds \\) 
+
+$$ ds = \sqrt{ 1 + x'^2 } \\, dy. $$ 
+
+where \\( x' = dx / dy \\). Then we get 
+
+$$ I = \int 2\pi y \sqrt{1 + x'^2} \\, dy $$ 
+
+Here \\( y \\) is the integration variable, \\( F = y\sqrt{ 1+x'^2 }  \\) and
+so the Euler Equation is 
+
+$$ \boxed{ \frac{ d }{ dy } \frac{\partial F}{\partial x'} - \frac{\partial F}{\partial x} = 0  }   $$
+
+And since \\( \frac{\partial F}{\partial x}  = 0 \\), we get 
+
+$$ \frac{d }{d y}\left( \frac{ yx' }{ \sqrt{ 1+x'^2 }  } \right) = 0  $$ 
+
+Integrating once, solving for \\( x' \\) and integrating again yields
+
+\begin{align*}
+    &\frac{ yx' }{ \sqrt{ 1+x'^2 } = c_1 } \\\
+x' &= \frac{d x}{d y} = \frac{ c_1 }{ \sqrt{ y^2 - c_1^2 }  } \\\
+x &= c_1 \cosh^{ {-1} } \frac{ y }{ c_1 } + c_2 \\\
+y &= c_1\cosh \frac{ x-c_2 }{ c_1 }  
+\end{align*}
+
+
+The method used above can be used anytime \\( I = \int F(y, y') \\,  dx \\)
+does not have the independent variable \\( x \\). The Euler-Lagrange Equation
+then simplifies since \\( \frac{\partial F}{\partial x} = 0 \\) .
+
+#### Example 2: ***Cylindrical Geodesics***
 
 Find the geodesics on the cone \\( z^2 = 8(x^2 + y^2) \\).
 
 Using cylindrical coordinates, we have \\( z^2 = 8r^2, z = r\sqrt{8}, dz
-= dr\\,\sqrt{8} \\), so 
+= dr\\,\sqrt{8} \\), so
 
 $$ds^2 = dr^2 + r^2 d\theta^2 + dz^2 = dr^2 + r^2d\theta^2 + 8dr^2 = 9dr^2 + r^2  d\theta^2$$
 
@@ -101,14 +148,14 @@ $$ds^2 = dr^2 + r^2 d\theta^2 + dz^2 = dr^2 + r^2d\theta^2 + 8dr^2 = 9dr^2 + r^2
 We therefore want to minimize
 
 $$ I = \int \\, ds = \int \sqrt{9 dr^2 + r^2 d\theta^2} = \int \sqrt{9 + r^2
-\theta'^2} \\, dr. $$ 
+\theta'^2} \\, dr. $$
 
 I use \\( r \\) as the integration variable since the integrand contains \\( r \\) but not \\( \theta \\). Then we can immediately write
 
 $$ \frac{d}{dr} \left(\frac{\partial F}{\partial \theta'} \right) = 0 \qquad
 \frac{\partial F}{\partial \theta'} = \frac{r^2\theta'}{\sqrt{9 + r^2\theta'^2}} = \text{const.} = K$$
 
-Solving for \\( \theta' \\) and integrating, 
+Solving for \\( \theta' \\) and integrating,
 
 \begin{align*}
 &r^4 \theta'^2 = K^2 (9 + r^2 \theta'^2), \\\
@@ -116,16 +163,26 @@ Solving for \\( \theta' \\) and integrating,
 &\int d\theta = \int \frac{3K}{r\sqrt{r^2 - K^2}} \\\, dr.
 \end{align*}
 
-Solving this integral with software, 
+Solving this integral with software,
 
 $$ \theta + \alpha = 3 \cos^{-1} \frac{K}{r} \qquad (\alpha = \text{const. of integration}) $$
 
 $$ \cos\left(\frac{\theta + \alpha}{3}\right) = \frac{K}{r} \quad \text{or}
-\quad r\cos\left(\frac{\theta + \alpha}{3}\right) = K. $$ 
+\quad r\cos\left(\frac{\theta + \alpha}{3}\right) = K. $$
 
-Einstein's **Theory of General Relativity** heavily utilizes geodesics.
+Einstein's  Theory of General Relativity  heavily utilizes geodesics.
 Fermat's principle that a ray of light takes the path traversed in the least
 time is akin to calculuating the geodesic. In the above example we calculated
-the geodesics for a spacetime in the shape of a cone. 
+the geodesics for a spacetime in the shape of a cone.
+
+
+
+
+
+ 
+
+
+
+
 
 [Calculus of Variations Problems](https://dev-undergrad.dev/math121a/calculus_of_variations_problems/)
