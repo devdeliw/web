@@ -3,7 +3,7 @@ title = 'Complex Analysis Problems'
 date = 2023-12-05T13:01:05-08:00
 +++
 
-Practice Problems on [Complex Analysis](https://dev-undergrad.dev/math121a/complex_analysis/) -- Contour Integration & Laurent Series 
+Practice Problems on [Complex Analysis](https://dev-undergrad.dev/math121a/complex_analysis/) / Contour Integration & Laurent Series 
 <!--more--> 
 
 ## Contour Integration
