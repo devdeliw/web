@@ -3,7 +3,7 @@ title = 'Calculus of Variations Problems'
 date = 2023-12-04T14:07:38-08:00
 +++
 
-Problems with [Calculus of Variations](https://dev-undergrad.dev/math121a/calculus_of_variations) / Euler-Lagrange Differential Equations -- §9. Boas
+Problems with [Calculus of Variations](https://dev-undergrad.dev/math121a/calculus_of_variations) / Euler-Lagrange Differential Equations 
 <!--more-->
 
 Make the following integrals ***stationary:***
