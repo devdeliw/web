@@ -22,7 +22,7 @@ approximated as an infinite series of smaller sinusoidal curves.
 where the coefficients \\( a_n \\) and \\( b_n \\) 
 
 $$ a_n = \frac{ 1 }{ \pi } \int_{ -\pi }^{ \pi } f(x) \cos(n x) \\, dx \qquad
-b_n = \int_{ -\pi }^{ \pi } f(x) \sin( nx ) \\, dx   $$ 
+b_n = \frac{ 1 }{ \pi } \int_{ -\pi }^{ \pi } f(x) \sin( nx ) \\, dx   $$ 
 
 And since 
 
