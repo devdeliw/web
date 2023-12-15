@@ -9,7 +9,7 @@ footnoteReturnLinkContents = "^"
 
 [author]
   name = "Deval Deliwala"
-  abstract = "I study  astrophysics & math @ UC Berkeley. My primary interests lie in quantum computing."
+  abstract = "I study  astrophysics & math @ UC Berkeley. My primary interests lie in quantum computing. Here I compile all my notes from all my lectures & elsewhere. "
 
 [taxonomies]
   category = "categories"
@@ -24,7 +24,7 @@ footnoteReturnLinkContents = "^"
     style = "paraiso-dark"
 
 [Params]
-  darkmode = true
+  darkmode = false
 
 
 
