@@ -14,7 +14,7 @@ Notes on Single Quantum Systems -- §0.1 IBM Qiskit Textbook
         var adobeDCView = new AdobeDC.View({clientId: "f6cbc3dfaec34236bdacebdb082c447b", divId: "adobe-dc-view"});
         adobeDCView.previewFile(
        {
-          content:   {location: {url: "file:///Users/devaldeliwala/qiskit/notes/basics_of_quantum_information/single_systems/single_systems_01.pdf"}},
+          content:   {location: {url: "https://dev-undergrad.dev/qiskit/single_systems_01/single_systems_01.pdf"}},
           metaData: {fileName: "single_systems_01.pdf"}
        },
        {embedMode: "IN_LINE", showAnnotationTools: false}
