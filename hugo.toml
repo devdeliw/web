@@ -24,7 +24,7 @@ footnoteReturnLinkContents = "^"
     style = "paraiso-dark"
 
 [Params]
-  darkmode = true
+  darkmode = false
 
 
 
