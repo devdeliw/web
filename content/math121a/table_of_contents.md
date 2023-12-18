@@ -12,4 +12,4 @@ Website Table of Contents
 
 ### Sophomore Year
 
-### 1. [Math 121A](https://dev-undergrad.dev/math121a/)
+#### 1. [Math 121A](https://dev-undergrad.dev/math121a/)
