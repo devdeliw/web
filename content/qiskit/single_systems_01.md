@@ -15,7 +15,7 @@ Notes on Single Quantum Systems -- §0.1 IBM Qiskit Textbook
         adobeDCView.previewFile(
        {
           content:   {location: {url: "https://dev-undergrad.dev/qiskit/single_systems_01/single_systems_01.pdf"}},
-          metaData: {fileName: "single_systems_01 copy.pdf"}
+          metaData: {fileName: "single_systems_01.pdf"}
        },
        {embedMode: "IN_LINE", showAnnotationTools: false}
       );
