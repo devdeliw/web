@@ -19,7 +19,7 @@ footnoteReturnLinkContents = "^"
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
-      unsafe = true
+      unsafe = false
   [markup.highlight]
     style = "paraiso-dark"
 
