@@ -1,5 +1,5 @@
 +++
-aliases = ["posts", "articles", "blog", "showcase", "docs"]
+aliases = ["qiskit"]
 title = "IBM Qiskit"
 tags = ["index"]
 +++
