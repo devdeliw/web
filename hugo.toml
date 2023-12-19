@@ -1,4 +1,4 @@
-baseURL = 'https://dev-undergrad.dev/table_of_contents'
+baseURL = 'https://dev-undergrad.dev/'
 languageCode = 'en-us'
 title = 'Undergraduate Notes'
 theme = 'HugoTeX'
