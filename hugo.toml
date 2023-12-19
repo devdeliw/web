@@ -1,4 +1,4 @@
-baseURL = 'https://dev-undergrad.dev/'
+baseURL = 'https://dev-undergrad.dev/table_of_contents'
 languageCode = 'en-us'
 title = 'Undergraduate Notes'
 theme = 'HugoTeX'
@@ -9,7 +9,7 @@ footnoteReturnLinkContents = "^"
 
 [author]
   name = "Deval Deliwala"
-  abstract = "I study  astrophysics & math @ UC Berkeley. My primary interests lie in quantum computing. Here I compile all my notes from all my lectures & elsewhere. "
+  abstract = "I study  astrophysics & math @ UC Berkeley. My primary interests lie in quantum computing. Here I compile all my notes from all my lectures & elsewhere."
 
 [taxonomies]
   category = "categories"

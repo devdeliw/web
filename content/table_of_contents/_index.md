@@ -1,6 +1,6 @@
 +++
 aliases = ["posts", "articles", "blog", "showcase", "docs"]
-title = "Math121A"
+title = "Undergraduate Notes"
 tags = ["index"]
 +++
 
