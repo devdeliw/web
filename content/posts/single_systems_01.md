@@ -8,5 +8,7 @@ Systems](https://dev-undergrad.dev/qiskit/single_systems_01/combined.pdf) -- §0
 
 <!--more-->
 
+[IBM
+Course](https://learning.quantum.ibm.com/course/basics-of-quantum-information)
 
 
