@@ -1,6 +1,6 @@
 +++
-aliases = ["posts", "articles", "blog", "showcase", "docs"]
-title = "Undergraduate Notes"
+aliases = ["table_of_contents"]
+title = "Table of Contents"
 tags = ["index"]
 +++
 

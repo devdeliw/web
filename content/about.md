@@ -14,10 +14,10 @@ the galactic center.
 
 Other than that, I like nature, calisthenics, watching 3b1b videos...
 
-* https://youtube.com/devdeliw
-* https://github.com/devdeliw
-* https://instagram.com/devaldeliwala
-* https://www.linkedin.com/in/deval-deliwala-554749219/
+* [YouTube](https://youtube.com/@devdeliw/)
+* [GitHub](https://github.com/devdeliw)
+* [Instagram](https://instagram.com/devaldeliwala)
+* [LinkedIn](https://www.linkedin.com/in/deval-deliwala-554749219/)
 
 
 Thanks for checking out my site!
