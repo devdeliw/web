@@ -16,6 +16,7 @@ date = 2023-12-18T17:22:02-07:00
 
 1. [Single Systems](https://dev-undergrad.dev/qiskit/single_systems_01/)
 2. [Multiple Systems](https://dev-undergrad.dev/qiskit/multiple_systems_02/)
+3. [Quantum Circuits](https://dev-undergrad.dev/qiskit/quantum_circuits/)
 
 ### Sophomore Year
 
