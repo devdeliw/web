@@ -4,7 +4,7 @@ date = 2023-12-23T00:59:28-07:00
 +++
 
 Notes on [Quantum
-Circuits](https://dev-undergrad.dev/qiskit/quantum_circuits/quantum_circuits.pdf) -- §0.3 IBM Qiskit Textbook
+Circuits](https://dev-undergrad.dev/qiskit/quantum_circuits/quantum_circuits.pdf) -- §0.3 IBM Qiskit Textbook, penis
 
 <!--more-->
 
