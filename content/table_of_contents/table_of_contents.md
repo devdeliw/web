@@ -28,6 +28,8 @@ date = 2023-12-18T17:22:02-07:00
     - [Calculus of Variations Problems](https://dev-undergrad.dev/math121a/calculus_of_variations_problems/)
 
 #### 2. [Physics 5C](https://dev-undergrad.dev/physics5c/)
+##### [Homework](https://dev-undergrad.dev/5CHw/)
+
 1. [Note 01 -- Classical Thermodynamics](https://dev-undergrad.dev/physics5C/introduction_to_classical_thermodynamics)
 
 
