@@ -27,11 +27,11 @@ date = 2023-12-18T17:22:02-07:00
 3. [Calculus of Variations](https://dev-undergrad.dev/math121a/calculus_of_variations/)
     - [Calculus of Variations Problems](https://dev-undergrad.dev/math121a/calculus_of_variations_problems/)
 
-#### 2. [Physics 5C](https://dev-undergrad.dev/physics5C/)
+#### 2. [Physics 5C](https://dev-undergrad.dev/physics5c/)
 1. [Note 01 -- Classical Thermodynamics](https://dev-undergrad.dev/physics5C/introduction_to_classical_thermodynamics)
 
 
-#### 3. [Physics 137A](https://dev-undergrad.dev/physics137A/)
+#### 3. [Physics 137A](https://dev-undergrad.dev/physics137a/)
 1. [Lecture 02 -- Stefan Boltzmann & Birth of Wave-Particle
    Duality](https://dev-undergrad.dev/physics137A/lec_02/)
 
