@@ -40,7 +40,6 @@ becomes time-independent__. Because the probability distribution of the
 microstates is constant after equilibrium is reached, so are the macrostates of
 the two systems. 
 
-![test](/test.png)
 
 With the notion of thermal equilibrium, the **zeroth law of thermodynamics**
 states: 
@@ -71,7 +70,6 @@ $$ \frac{ dL }{ dT } = \alpha(T) L $$
 where \\( \alpha(T) \\) is called the __coefficient of thermal expansion__ at
 temperature \\( T \\) . The above relation basically gives the definition of \\( \alpha(T) \\) . 
 
-![01](/01.png)
 
 If the temperature variation \\( \Delta T \\) isn't too large, we can then
 approximate the coefficient \\( \alpha \\) to be a constant, and the change in
@@ -115,5 +113,51 @@ $$ dA = 2\alpha A dT $$
 which gives
 
 $$ \alpha_A = \frac{ 1 }{ A } \frac{d A}{d T}= 2\alpha $$ 
+
+### 4 The Equation of State of Gases & the Ideal Gas Law
+
+For a collection of particles that do not interact with each other, one can
+show from statistical mechanics that the pressure, volume, and temperature are
+related by the __ideal gas law__
+
+$$ PV = Nk_B T $$ 
+
+where \\(  N\\) is the total # of particles contained, and \\( k_B = 1.380649
+\times 10^{ -23 } J \cdot K^{ -1 }   \\) is the __Boltzmann Constant__. This
+equation is measured in the kelvin scale, and the Boltzmann constant is
+a fundamental constant that relates microscopic degrees of freedom with
+macroscopic state variables. 
+
+As typical macroscopic systems involve a large # of particles, we can define
+a unit called the __mole__ where
+
+$$ \text{1 mole} = N_A \text{ particles} $$ 
+
+where the __Avogadro constant__ \\( N_A \\) _is defined to be exactly_ \\( 6.02214076 \times 10^{ 23 }   \\) . If written in terms of moles, typically denoted as \\( n \\) , the ideal gas law could be expressed as
+
+$$ PV = nRT $$ 
+
+where \\( n \\)  is the number of moles of particles, and \\( R \\)  is called the
+__universal gas constant__, and so 
+
+$$ R = k_B N_A $$ 
+
+However, this equation assumes particles do not interact with each other, which
+is a very good approximation. However, gas molecules do interact with each
+other, albeit weakly. Due to the vacuum fluctuation of the electromagnetic
+field, gas molecules are electrically polarized. The induced molecular dipoles
+then weakly attract each other with a force that decreases over distance with \\( 1 / r^{ 6 }   \\) . 
+But when molecules are very close to each other where the repulsive force
+between electrons on different molecules starts to dominate and the two
+molecules _collide_, the distance which the repulsive force kicks in then
+defines the effective volume of the gas molecules. The equation of state of
+gases can be further revised as 
+
+$$ \left( P + a \frac{ N^2 }{ V^2 }  \right) \left( \frac{ V }{ N } - b \right) = k_B T $$ 
+
+This is the __van der Waals equation of state__ for a gas. The constant \\( a \\) parameterizes the attractive force among molecules, which reduces the pressure \\( P \\) . The \\( a \\) term is proportional to density squared \\( N^2 / V^2 \\) because it is proportional to the _pairs_ of molecules that feel the attractive force. On the other hand, the constant \\( b \\) effectively reduces the effective volume which the gas particles move. 
+
+### The Kinetic Theory of Gases
+
 
 
