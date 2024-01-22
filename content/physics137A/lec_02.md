@@ -8,5 +8,5 @@ wave-particle duality
 
 <!--more-->
 
-[PDF Scan](https://dev-undergrad.dev/physics_137A/scans/lec02.pdf) 
+[PDF Scan](https://dev-undergrad.dev/physics137A/scans/lec02.pdf) 
 
