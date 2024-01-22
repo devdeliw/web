@@ -7,3 +7,5 @@ Notes on [Deriving Ideal Gas Law from individual microscopic kinetic
 energies](https://dev-undergrad.dev/physics5C/notes/lec03.pdf)
 
 <!--more-->
+
+01/22/23
