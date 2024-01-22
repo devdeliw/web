@@ -1,7 +1,7 @@
 +++
 title = 'Classical Thermodynamics -- 01'
 date = 2024-01-17T10:06:30-08:00
-draft = false
+draft = True
 +++
 
 Note 1 -- Classical Thermodynamics, Chien-I Chiang
