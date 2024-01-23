@@ -40,7 +40,7 @@ date = 2023-12-18T17:22:02-07:00
 ##### [Homework](https://dev-undergrad.dev/physics137Ahw/)
 
 1. [Lecture 02 -- Stefan Boltzmann & Birth of Wave-Particle
-   Duality](https://dev-undergrad.dev/physics137A/lec_02/)
+   Duality](https://dev-undergrad.dev/137A/lec_02/)
 
 
 
