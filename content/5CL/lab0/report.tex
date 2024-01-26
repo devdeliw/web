@@ -1,0 +1,150 @@
+\documentclass[svgnames]{article}     % use "amsart" instead of "article" for AMSLaTeX format
+%\geometry{landscape}                 % Activate for rotated page geometry
+
+%\usepackage[parfill]{parskip}        % Activate to begin paragraphs with an empty line rather than an indent
+
+\usepackage{graphicx}                 % Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+
+%maths                                % TeX will automatically convert eps --> pdf in pdflatex
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{esint}
+\usepackage{geometry}
+
+% Inverting Color of PDF
+%\usepackage{xcolor}
+%\pagecolor[rgb]{0.19,0.19,0.19}
+%\color[rgb]{0.77,0.77,0.77}
+
+%noindent
+\setlength\parindent{0pt}
+
+%pgfplots
+\usepackage{pgfplots}
+
+%images
+\graphicspath{{/Users/devaldeliwala/screenshots/}}                   % Activate to set a image directory
+
+%tikz
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\usepackage{comment}
+\usetikzlibrary{arrows}
+\usepackage[most]{tcolorbox}
+
+%Figures
+\usepackage{float}
+\usepackage{caption}
+\usepackage{lipsum}
+
+
+\title{Lab 0 Report}
+\author{Deval Deliwala}
+%\date{}                              % Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+%\section{}
+%\subsection{}
+\tableofcontents % Activate to display a table of contents
+
+\section{Exercise - Parallax}
+
+\textbf{Setup}: Take two pencils.  Hold one of them in front of you at arm’s
+length and the other at roughly half that distance.  Close one eye and focus on
+a point far away. Then move your head side to side and record what you observe \\
+
+\textbf{Observation}: When moving my head side-to-side, the further pencil
+seems to be near-stationary while the closer pencil moves a lot more relative
+to my eyes. When the pencils are \textit{the same distance} away from my eye,
+both appear to move equally when my head oscillates. \\ 
+
+\textbf{Experimental Design}: The distance is inversely proportional to how
+much the pencils seem to move relative to my eyes. If the pencil moves less, in
+this case the further one, it is farther away. Therefore, the formula for how
+far an object is should be of the form $d = 1 / \theta$ \\
+
+\section{Experiment 1 - The Law of Reflection}
+
+The goal of this experiment is to demonstrate the law of reflection by
+comparing the incident and reflected angles of a laser incident on a plane
+mirror. \\
+
+We place the plane mirror on the top of the protractor where the mirror is
+normal to the 0 degree axis. To ensure the mirror is calibrated such that the
+incident and reflected angles should equate, we first shot a laser at the 45
+degree mark as it has a much longer tick mark which helps with aiming the
+laser. We rotated and aligned the plane mirror until the 45 degree incident
+also resulted in a 45 degree reflection. \\
+
+Of course, the goal of this experiment itself is to demonstrate this equality,
+but it is intuitively obvious and so we used it to help in our initial
+calibration\\ 
+
+\subsection{Experimental Design} 
+
+\begin{figure}[H]
+  \centering
+    \includegraphics[width = 10cm]{screenshot 18.png}
+    \caption{Experiment 1 Setup}
+\end{figure}
+
+\paragraph{Verify / Refine:} \mbox{} \\
+
+To check whether our lab setup is viable we checked our precision errors. After
+initially setting up the plane mirror such that the incident and reflected
+angles are equal, we performed some more checks on angles that did not have as
+large of a guideline as the 45 degree angle. \\
+
+For 30 degrees, our reflected angle was half a degree smaller (29.5) which we
+assume means our mirror isn't perfectly straight, or the width of the laser
+itself causes some uncertainty. After the light turned off, our measurements
+became much better. 
+
+\paragraph{Uncertainties:} \mbox{} \\
+
+\begin{itemize}
+  \item[-] Width of the laser -- does not change over the angle range (minimize
+    by looking at center of beam) 
+    \item[-] Mirror angle/translation offsets - minimize by calibrating
+      beforehand 
+    \item[-] Precision error of the protractor - constant for the whole
+      experiment 
+    \item[-] Error in the angle of the laser emitter (minimized by ensuring the
+      reflection is off the center of the protractor) - changes based on each
+      measurement
+    \item[-] Turning the lights off makes the beam much more clear
+    \item[-] Line up the laser such that the incident occurs at the center of
+      0 degree axis -- helps especially for smaller angles 
+\end{itemize}
+
+
+\subsection{Data Collection}
+
+
+\begin{center}
+\begin{tabular}{ |c|c|c|c| }
+ \hline
+ Incident & Deval  & Michaela & SuryaNeil\\ 
+ \hline
+ 5 & 5.5 & 5.1 & 5.05 \\ 
+ \hline
+ 20 & 20.3 & 20.1 & 20.5 \\
+ \hline
+ 40 & 40.5 & 41 & 40 \\
+ \hline
+ 60 & 60 & 60 & 60 \\
+ \hline
+ 80 & 80 & 80 & 80 \\
+ \hline
+\end{tabular}
+\end{center}
+
+
+
+
+
+
+
+\end{document}
+
