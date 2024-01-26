@@ -28,7 +28,7 @@ date = 2023-12-18T17:22:02-07:00
     - [Calculus of Variations Problems](https://dev-undergrad.dev/math121a/calculus_of_variations_problems/)
 
 #### 2. [Physics 5C](https://dev-undergrad.dev/5c/)
-##### [Homework](https://dev-undergrad.dev/5CHW/)
+##### [Homework](https://dev-undergrad.dev/hw_5C/)
 
 1. [Lecture 02](https://dev-undergrad.dev/5c/lecture_02/)
 2. [Lecture 03](https://dev-undergrad.dev/5c/lecture_03/)
@@ -37,7 +37,7 @@ date = 2023-12-18T17:22:02-07:00
 
 
 #### 3. [Physics 137A](https://dev-undergrad.dev/137a/)
-##### [Homework](https://dev-undergrad.dev/137AHW/)
+##### [Homework](https://dev-undergrad.dev/hw_137A/)
 
 1. [Lecture 02 -- Stefan Boltzmann & Birth of Wave-Particle
    Duality](https://dev-undergrad.dev/137A/lec_02/)
