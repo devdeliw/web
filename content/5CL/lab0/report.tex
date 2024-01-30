@@ -120,8 +120,7 @@ became much better.
 
 
 \subsection{Data Collection}
-
-
+\mbox{}  
 \begin{center}
 \begin{tabular}{ |c|c|c|c| }
  \hline
@@ -140,6 +139,57 @@ became much better.
 \end{tabular}
 \end{center}
 
+The precision error for the protractor is 0.5 degrees. We began with 5 degrees
+as 0 degrees just illuminated the edge of the mirror without a reflection. We
+found that for larger angles, we got more and more precise. This is likely
+because, from the perspective of larger angles, it is easier to line up the
+incident to occur exactly at 0 degrees at the center of the mirror. This will
+yield more accurate reflected angles which in turn yields a better accuracy and
+precision. 
+
+
+\begin{figure}[H]
+  \centering
+    \includegraphics[width = 15cm]{screenshot 22.png}
+    \caption{Data Collection for Experiment 1}
+\end{figure}
+
+They may not be visible, but the above graph does include error bars. For both
+horizontal and vertical we set an above and below error of 0.25 to account for
+0.5 degrees error total. Since all of the error bars do intersect the best-fit
+  curve, we can consider the linear regression a good fit to the data. \\
+
+Including the law of reflection itself in the graph -- $\theta_{in}
+= \theta_{out}$ yields the following graph: 
+
+\begin{figure}[H]
+  \centering
+    \includegraphics[width = 15cm]{screenshot 23.png}
+
+    \caption{Data Collection vs. Law of Reflection}
+\end{figure}
+
+As you can see our collected data lines up near-perfectly with the law of
+reflection. \\
+
+\subsection{Determining Reduced Chi Squared Value}
+
+Implementing the chi square formula: 
+
+\[
+\chi^2 = \sum \frac{(y_i - y(x_i))^2}{\alpha_i^2}
+\] \vspace{5px}
+
+such that the reduced chi squared $\tilde{\chi^2} = \chi^2 / \nu$, where $\nu
+= 15 - 1 = 14$, we get
+
+\begin{align*}
+  \chi^2 &= 7.45 \\
+  \tilde{\chi^2} &= 0.53
+\end{align*}
+
+And since $\tilde{\chi^2} < 1$, we say the model is falling within the expected
+uncertainty range. 
 
 
 

@@ -4,3 +4,4 @@
 \contentsline {paragraph}{Verify / Refine:}{2}{}%
 \contentsline {paragraph}{Uncertainties:}{2}{}%
 \contentsline {subsection}{\numberline {2.2}Data Collection}{3}{}%
+\contentsline {subsection}{\numberline {2.3}Determining Reduced Chi Squared Value}{4}{}%

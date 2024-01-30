@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.23)  24 JAN 2024 21:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.23)  29 JAN 2024 11:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -669,14 +669,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--79
 
  []
 
+[1
 
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 80--83
 
  []
 
-[1
-
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 </Users/devaldeliwala/screenshots//screenshot 18.png, id=52, 490.83376pt x 359.3425pt>
 File: /Users/devaldeliwala/screenshots//screenshot 18.png Graphic file (type png)
 <use /Users/devaldeliwala/screenshots//screenshot 18.png>
@@ -697,20 +696,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
-[2 </Users/devaldeliwala/screenshots//screenshot 18.png>] [3] (./report.aux) ) 
+[2 </Users/devaldeliwala/screenshots//screenshot 18.png>]
+</Users/devaldeliwala/screenshots//screenshot 22.png, id=58, 1079.03125pt x 566.115pt>
+File: /Users/devaldeliwala/screenshots//screenshot 22.png Graphic file (type png)
+<use /Users/devaldeliwala/screenshots//screenshot 22.png>
+Package pdftex.def Info: /Users/devaldeliwala/screenshots//screenshot 22.png  used on input line 153.
+(pdftex.def)             Requested size: 426.79134pt x 223.91963pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--161
+
+ []
+
+[3 </Users/devaldeliwala/screenshots//screenshot 22.png>]
+</Users/devaldeliwala/screenshots//screenshot 23.png, id=63, 1081.03876pt x 568.1225pt>
+File: /Users/devaldeliwala/screenshots//screenshot 23.png Graphic file (type png)
+<use /Users/devaldeliwala/screenshots//screenshot 23.png>
+Package pdftex.def Info: /Users/devaldeliwala/screenshots//screenshot 23.png  used on input line 167.
+(pdftex.def)             Requested size: 426.79134pt x 224.2889pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--174
+
+ []
+
+[4 </Users/devaldeliwala/screenshots//screenshot 23.png>] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 33448 strings out of 476025
- 847253 string characters out of 5790016
- 1858388 words of memory out of 5000000
- 53363 multiletter control sequences out of 15000+600000
+ 33466 strings out of 476025
+ 848057 string characters out of 5790016
+ 1859388 words of memory out of 5000000
+ 53379 multiletter control sequences out of 15000+600000
  520898 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,6n,106p,702b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on report.pdf (3 pages, 1065053 bytes).
+ 99i,9n,106p,702b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on report.pdf (4 pages, 1362004 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 118 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 162 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 172 words of extra memory for PDF output out of 10000 (max. 10000000)
 
