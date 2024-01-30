@@ -1,5 +1,5 @@
 +++
-title = 'Lecture 02 Physics 137A'
+title = 'Lecture 04 Physics 137A'
 date = 2024-01-20T20:00:55-08:00
 +++
 
