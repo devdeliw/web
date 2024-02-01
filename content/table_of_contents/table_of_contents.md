@@ -42,6 +42,13 @@ date = 2023-12-18T17:22:02-07:00
 1. [Lecture 02 -- Stefan Boltzmann & Birth of Wave-Particle
    Duality](https://dev-undergrad.dev/137A/lec_02/)
 
+2. [Lecture 03 -- Classical Correspondence, Superposition, Particles as Wave
+   Packets](https://dev-undergrad.dev/137A/lec_03/)
+
+3. [Lecture 04 -- Properties of Wave Function, Probability, Normalization,
+   Measurement, Expectation Value, Wave Packets, & the Uncertainty
+Principle](https://dev-undergrad.dev/137A/lec_04/)
+
 
 
 
